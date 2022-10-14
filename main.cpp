@@ -2,30 +2,7 @@
 #include<stdio.h>
 
 
-void display(void)
-{
-	glClear(GL_COLOR_BUFFER_BIT);
-	
-	
-	  glClearColor(0.0f, 1.0f, 0.0f, 1.0f);
-		glBegin(GL_QUADS);
-	
-	glColor3f(1,0,0);
-	glVertex3f(0,2.0,0.0);
-	
-		glColor3f(0,0,1);
-	glVertex3f(-2.0,0.0,0.0);
-	
-		glColor3f(1,0,0);
-	glVertex3f(2.0,0.0,0.0);
-	
-			glColor3f(1,0,0);
-	glVertex3f(2.0,2.0,0.0);
-	glEnd();
-	
-	glutSwapBuffers();
-}
-
+//remove the text file and use less things from the code
 
 void keyboard(unsigned char c,int x,int y)
 {
